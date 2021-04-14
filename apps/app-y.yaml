@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: app-x
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/argais/argodemo.git
+    targetRevision: HEAD
+    path: app-x
+    directory:
+      recurse: true
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: argocd
