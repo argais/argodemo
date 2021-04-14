@@ -16,7 +16,7 @@ spec:
       interval: 1m
   values:
     ui:
-      color: "#34577c"
+      color: "#00aabb"
     service:
       enabled: true
       type: LoadBalancer
