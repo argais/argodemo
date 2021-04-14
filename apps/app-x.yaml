@@ -20,7 +20,7 @@ spec:
       # releaseName: mypodinfo
       parameters:
       - name: ui.color
-        value: "#aabbcc"
+        value: "#001122"
       values: |
         ui:
           message: "hello world :)"

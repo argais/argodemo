@@ -20,13 +20,10 @@ spec:
       # releaseName: mypodinfo
       parameters:
       - name: ui.color
-        value: "#aabbcc"
+        value: "#bbccdd"
       values: |
         ui:
           message: "hello world :)"
-        service:
-          enabled: true
-          type: LoadBalancer
   destination:
     server: https://kubernetes.default.svc
     namespace: addon-y
