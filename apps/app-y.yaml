@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/argais/argodemo.git
     targetRevision: HEAD
-    path: app-x
+    path: app-y
     directory:
       recurse: true
   destination:
