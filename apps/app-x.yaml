@@ -20,10 +20,10 @@ spec:
       # releaseName: mypodinfo
       parameters:
       - name: ui.color
-        value: "#225544"
+        value: "#ff00ee"
       values: |
         ui:
-          message: "hello world :)"
+          message: "hello cybraics"
         service:
           enabled: true
           type: LoadBalancer
